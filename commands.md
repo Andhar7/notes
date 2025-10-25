@@ -1,2 +1,4 @@
- python ../manage.py startapp notes 
+```zsh 
+# In apps directory:
+python ../manage.py startapp notes 
  
