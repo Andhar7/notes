@@ -15,8 +15,11 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/ckg" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/ckg/bin/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/ckg" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.14 (notes_project)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.14 virtualenv at ~/Developer/notes_project/backend/ckg" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">

@@ -24,9 +24,8 @@ class NoteSerializer(serializers.ModelSerializer):
 # You're using strip() to remove whitespace
 # You're using escape() for security to prevent XSS attacks
 # You're raising proper ValidationError with clear messages
-# Check out if the title and content are empty
-class NoteCreateSerializer(NoteSerializer):
 
+# Check out if the title and content are empty
     def validate_title(self, value):
         if not value.strip():
             raise serializers.ValidationError('Title cannot be empty')
